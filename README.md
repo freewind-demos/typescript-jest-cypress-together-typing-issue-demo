@@ -1,4 +1,4 @@
-TypeScript Cypress Integration Test Demo
+TypeScript Cypress Test Demo
 =========================================
 
 注意点：
