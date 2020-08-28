@@ -2,7 +2,8 @@
   "scripts": {
     "test": "jest",
     "e2e:open": "cypress open",
-    "e2e:run": "cypress run"
+    "e2e:run": "cypress run",
+    "lint": "tsc --noEmit"
   },
   "devDependencies": {
     "@cypress/webpack-preprocessor": "5.4.5",
