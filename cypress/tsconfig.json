@@ -1,4 +1,5 @@
 {
+  "extends": "../tsconfig.json",
   "compilerOptions": {
     "strict": true,
     "target": "es6",
@@ -6,10 +7,11 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "types": [
-      "jest"
+      "cypress"
     ]
   },
   "include": [
-    "src/**/*"
+    "../node_modules/cypress",
+    "./**/*.ts"
   ]
 }
