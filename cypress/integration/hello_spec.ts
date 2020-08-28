@@ -1,5 +1,4 @@
 import {add} from '../../add'
-import 'cypress';
 
 describe('TypeScript', () => {
   it('works', () => {
