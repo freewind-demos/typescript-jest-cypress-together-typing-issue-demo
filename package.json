@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "test:open": "cypress open",
-    "test:run": "cypress run"
+    "e2e:open": "cypress open",
+    "e2e:run": "cypress run"
   },
   "devDependencies": {
     "@cypress/webpack-preprocessor": "5.4.5",
