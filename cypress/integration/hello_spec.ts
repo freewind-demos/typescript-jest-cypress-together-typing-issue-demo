@@ -1,5 +1,8 @@
 import {add} from '../../add'
 
+// This will cause errors: 'Error: Can't resolve 'child_process' in ...'
+// import 'cypress';
+
 describe('TypeScript', () => {
   it('works', () => {
     // note TypeScript definition

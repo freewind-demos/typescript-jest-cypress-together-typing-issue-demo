@@ -16,6 +16,12 @@ https://github.com/cypress-io/cypress-and-jest-typescript-example
 4. 其`"types": ["cypress"]`似乎可要可不要
 5. `cypress/plugins/index.js`中使用的`@cypress/webpack-preprocessor`对于这个问题无影响
 
+注意：
+1. cypress中不能`import 'cypress'`（我曾尝试使用该方法来解决typing的问题），因为会导入一些额外的东西，导致cypress测试报错：
+    ```
+    Error: Can't resolve 'child_process' in ...
+    ```
+
 ```
 npm install
 npm run test:open
